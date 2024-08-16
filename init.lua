@@ -239,6 +239,8 @@ require('lazy').setup({
     -- use opts = {} for passing setup options
     -- this is equalent to setup({}) function
 },
+  { 'mfussenegger/nvim-jdtls' },
+
   -- Here is a more advanced example where we pass configuration
   -- options to `gitsigns.nvim`. This is equivalent to the following Lua:
   --    require('gitsigns').setup({ ... })
